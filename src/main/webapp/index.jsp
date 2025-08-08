@@ -4,6 +4,6 @@
     <meta charset="UTF-8">
 </head>
 <body>
-<h2>얍삐</h2>
+<h2>왓삐</h2>
 </body>
 </html>
