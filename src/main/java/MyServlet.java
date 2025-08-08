@@ -1,3 +1,5 @@
+import com.google.genai.Client;
+import io.github.cdimascio.dotenv.Dotenv;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -16,6 +18,12 @@ public class MyServlet extends HttpServlet {
             HttpServletRequest req,
             HttpServletResponse resp) throws ServletException, IOException {
         // req -> 인풋 (데이터)
+//        req.setAttribute(
+//                "키", "값"
+//        );
+//        req.setAttribute("name", "김자바");
+        req.setAttribute("name", "북한돼지");
+
         // resp -> 아웃풋 (화면 표현되는 것, 주소)
         // 화면을 그려주는 것
 //        resp.getWriter().println("Hello AI!"); // 직접 print하면 꾸미기 어려움
